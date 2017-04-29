@@ -17,5 +17,5 @@ $("#search").on("click",function() {
 	{
 		var searchNumOfRds = $("#searchNumOfRds").val();	
 	}
-
+	searchNYTimes(searchTerm,searchNumOfRds,searchStYr,searchEdYr);
 });
